@@ -6,7 +6,7 @@ export function HomePage() {
       <title>Ecommerce Project</title>
       <div className="header">
         <div className="left-section">
-          <a href="index.html" className="header-link">
+          <a href="/" className="header-link">
             <img
               className="logo"
               src="images/logo-white.png"
@@ -36,14 +36,14 @@ export function HomePage() {
         <div className="right-section">
           <a
             className="orders-link header-link"
-            href="orders.html"
+            href="/orders"
           >
             <span className="orders-text">Orders</span>
           </a>
 
           <a
             className="cart-link header-link"
-            href="checkout.html"
+            href="/checkout"
           >
             <img
               className="cart-icon"
